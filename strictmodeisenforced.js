@@ -6,3 +6,13 @@ var log=console.log.bind(console);
 */
 
 log((eval("var __temp = null"),typeof __temp === 'undefined')?'strict':'non-strict');
+
+
+
+
+/*
+function test(){
+  'use strict';
+  log((eval("var __temp = null"),typeof __temp === 'undefined')?'strict':'non-strict');
+}
+*/
