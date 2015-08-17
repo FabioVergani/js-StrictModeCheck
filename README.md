@@ -5,3 +5,7 @@ doesn't use exceptions and works in any context, not only global one
 
 var log=console.log.bind(console);
 log((eval("var __temp = null"),typeof __temp === 'undefined')?'strict':'non-strict');
+
+eval('var __temp=null;');
+log(typeof __temp === 'undefined'?'strict':'non-strict');
+
